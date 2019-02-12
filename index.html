@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Tic Tac Toe</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> 
+    </head>
+    <body>
+        <div class="container text-center" style="overflow-y:auto" >
+            <header>
+                <h1>Tic Tac Toe</h1>
+            </header> 
+            <div class="row"> 
+                <div class="log text-center " id="log">
+                    Player1 click a box
+                </div>
+            </div>
+            <div class="overlay"></div>   
+            <div class="row">
+                <div class="game-pad"  id="0" position=[0,0]>&nbsp;</div>
+                <div class="game-pad"  id="1" position=[0,1]>&nbsp;</div>
+                <div class="game-pad"  id="2" position=[0,2]>&nbsp;</div>
+            </div>          
+            <div class="row">
+                <div class="game-pad"  id="3" position=[1,0]>&nbsp;</div>
+                <div class="game-pad"  id="4" position=[1,1]>&nbsp;</div>
+                <div class="game-pad"  id="5" position=[1,2]>&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="game-pad"  id="6" position=[2,0]>&nbsp;</div>
+                <div class="game-pad"  id="7" position=[2,1]>&nbsp;</div>
+                <div class="game-pad"  id="8" position=[2,2]>&nbsp;</div>             
+            </div>
+            <div class="row">
+                <button type="button" class="restart-btn btn-primary btn-lg  text-center ">Restart</button> 
+            </div> 
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
